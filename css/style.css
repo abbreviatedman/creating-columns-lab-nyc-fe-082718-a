@@ -75,7 +75,10 @@ img:hover {
 }
 
 .clearfix:after {
-  content: "";
-  display: table;
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
   clear: both;
+  height: 0;
 }
