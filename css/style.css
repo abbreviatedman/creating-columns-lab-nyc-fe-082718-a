@@ -67,9 +67,9 @@ img:hover {
 }
 
 .large {
-  position: relative;
+  position: absolute;
   width: 300%;
   height: 300%;
-  /*top: 0;*/
-  right: 200px;
+  top: 0;
+  right: 0;
 }
